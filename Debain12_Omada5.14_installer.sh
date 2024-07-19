@@ -14,7 +14,7 @@ reboot
 
 #-----Run as dummy---------------
 
-sudo apt update
+sudo apt update && sudo apt upgrade -y
 
 sudo apt install gnupg curl wget apt-transport-https ca-certificates software-properties-common -y
 
